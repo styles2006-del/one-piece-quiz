@@ -32,7 +32,7 @@ function startQuiz() {
 function showQuestion() {
     resetState();
     let currentQuestion = questions[Math.floor(Math.random() * questions.length)];
-    questions.pop(currentQuestion);
+    questions.splice(currentQuestion, 1);
     questionText.textContent = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
 
     currentQuestion.options.forEach(option => {
