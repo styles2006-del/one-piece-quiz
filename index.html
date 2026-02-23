@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="tree-page">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Piece Quiz Game</title>
+    <title>Quiz - Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>One Piece Quiz Game</h1>
-        <div class="question-container">
-            <div class="question-text"></div>
-            <div class="question-options">
-                <!-- Les options seront injectées ici par le script -->
-            </div>
-        </div>
-        <div class="score-container">
-            <div class="score-text"></div>
-            <button class="play-again-button">Play Again</button>
-        </div>
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    <h1 class="title">Choisissez votre Quête</h1>
+    <div id="container">
+        <ul>
+            <li><a href="anime.html">Animés</a></li>
+            <li><a href="culture.html">Culture générale</a></li>
+            <li><a href="informatique.html">Informatique</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="geographie.html">Géographie</a></li>
+            <li><a href="sport.html">Sport</a></li>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="mythologie.html">Mythologie</a></li>
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>

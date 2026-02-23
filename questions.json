@@ -328,110 +328,254 @@
 
     {
         "id": 29,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Comment s'appelle le meilleur ami de naruto ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Madara",
+            "Sasuke",
+            "Kakashi",
+            "Gaara"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Sasuke"
     },
 
     {
         "id": 30,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Que signifie Akatsuki ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Aube",
+            "Lune",
+            "Soleil",
+            "Crépuscule"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Aube"
     },
 
     {
         "id": 31,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Quel est l'objectif de l'Akatsuki ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Cacher les pires criminels",
+            "Se faire de l'argent",
+            "Rendre le monde meilleur",
+            "Créer une arme en utilisant les démons à queue"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Créer une arme en utilisant les démons à queue"
     },
 
     {
         "id": 32,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Pourquoi Itachi a-t-il massacré son clan ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Pour devenir Hokage",
+            "Pour empêcher un coup d'état",
+            "Pour venger son clan",
+            "Pour devenir plus fort"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Pour empêcher un coup d'état"
     },
 
     {
         "id": 33,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Quel est l'objectif de Itachi dans l'Akatsuki ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Rassemblez des informations",
+            "Capturez les démons à queue",
+            "Détruire L'akatsuki",
+            "Rendre le monde meilleur"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Rassemblez des informations"
     },
 
     {
         "id": 34,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Qui à fondé l'akatsuki ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Nagato",
+            "Yahiko",
+            "Konan",
+            "Obito"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Yahiko"
     },
 
     {
         "id": 35,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "A quel clan Karin appartient t-elle ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Uzumaki",
+            "Senju",
+            "Uchiha",
+            "Hyuga"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Uzumaki"
     },
 
     {
         "id": 36,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Pourquoi Orochimaru entraine Sasuke ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Pour lui prendre son corps",
+            "Pour le manger",
+            "Pour le tuer",
+            "Pour détruire Konoha"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Pour lui prendre son corps"
     },
 
     {
         "id": 37,
-        "question": "Quel est le nom du fruit du démon de Barbe Noire ?",
+        "question": "Qui à donné les rinnegan à Nagato ?",
         "options": [
-            "Gomu Gomu no Mi",
-            "Hito Hito no Mi",
-            "Yami Yami no Mi",
-            "Uo Uo no Mi"
+            "Madara",
+            "Hagoromo",
+            "Obito",
+            "Kakashi"
         ],
-        "answer": "Yami Yami no Mi"
+        "answer": "Madara"
+    },
+
+    {
+        "id": 38,
+        "question": "Pourquoi zetsu va t-il tuer Madara ?",
+        "options": [
+            "Pour venger son clan",
+            "Pour ressusciter Kaguya",
+            "Pour devenir Hokage",
+            "Pour détruire Konoha"
+        ],
+        "answer": "Pour ressusciter Kaguya"
+    },
+
+    {
+        "id": 39,
+        "question": "Pourquoi Kaguya veut-elle reprendre le chakra ?",
+        "options": [
+            "Pour redevenir la déesse",
+            "Pour se préparer à une guerre",
+            "Pour créer une arme",
+            "Pour le détruire"
+        ],
+        "answer": "Pour se préparer à une guerre"
+    },
+
+    {
+        "id": 40,
+        "question": "Dans Black clover qui est le premier assaillant que l'on voit ?",
+        "options": [
+            "Radès",
+            "Mars",
+            "Jonah",
+            "Valtos"
+        ],
+        "answer": "Radès"
+    },
+
+    {
+        "id": 41,
+        "question": "Combien de compagnie voit-on dans Black clover ?",
+        "options": [
+            "8",
+            "6",
+            "5",
+            "7"
+        ],
+        "answer": "8"
+    },
+
+    {
+        "id": 42,
+        "question": "Comment s'appelle la capitaine de la rose Bleue ?",
+        "options": [
+            "Charlotte Roselei",
+            "Nozel Silva",
+            "Rill Boismortier",
+            "Jack the Ripper"
+        ],
+        "answer": "Charlotte Roselei"
+    },
+
+    {
+        "id": 43,
+        "question": "Comment s'appelle le roi des mages ?",
+        "options": [
+            "Julius Novachrono",
+            "Nozel Silva",
+            "Rill Boismortier",
+            "Jack the Ripper"
+        ],
+        "answer": "Julius Novachrono"
+    },
+
+    {
+        "id": 44,
+        "question": "Comment s'appelle le capitaine des taureaux noirs ?",
+        "options": [
+            "Yami Sukehiro",
+            "Nozel Silva",
+            "Rill Boismortier",
+            "Julius Novachrono"
+        ],
+        "answer": "Yami Sukehiro"
+    },
+
+    {
+        "id": 45,
+        "question": "Quelle est la magie du capitaine des Aigle d'argent ?",
+        "options": [
+            "Magie acqueuse",
+            "Magie d'eau",
+            "Magie de mercure",
+            "Magie de glace"
+        ],
+        "answer": "Magie de mercure"
+    },
+
+    {
+        "id": 46,
+        "question": "Combien de frères et soeurs Noelle Silva a-t-elle ?",
+        "options": [
+            "3",
+            "4",
+            "2",
+            "6"
+        ],
+        "answer": "3"
+    },
+
+    {
+        "id": 47,
+        "question": "Qui à vaincu le numéro 1 de Radès ?",
+        "options": [
+            "Asta",
+            "Léopold",
+            "Noelle",
+            "Fuegoleon"
+        ],
+        "answer": "Asta"
+    },
+
+    {
+        "id": 48,
+        "question": "Qui est l'empereur mages ?",
+        "options": [
+            "Julius Novachrono",
+            "Nozel Silva",
+            "Rill Boismortier",
+            "Jack the Ripper"
+        ],
+        "answer": "Julius Novachrono"
+    },
+
+    {
+        "id": 49,
+        "question": "Qui est le roi des mages ?",
+        "options": [
+            "Julius Novachrono",
+            "Nozel Silva",
+            "Rill Boismortier",
+            "Jack the Ripper"
+        ],
+        "answer": "Julius Novachrono"
     }
 
 ]

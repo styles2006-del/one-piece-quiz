@@ -17,7 +17,7 @@ async function fetchQuestions() {
         startQuiz();
     } catch (error) {
         console.error('Erreur:', error);
-        questionText.textContent = "Impossible de charger les questions. Assurez-vous de lancer ce fichier via un serveur local (ex: Live Server).";
+        questionText.textContent = "Impossible de charger les questions.";
     }
 }
 
@@ -32,6 +32,7 @@ function startQuiz() {
 function showQuestion() {
     resetState();
     let currentQuestion = questions[Math.floor(Math.random() * questions.length)];
+    questions.pop(currentQuestion);
     questionText.textContent = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
 
     currentQuestion.options.forEach(option => {
@@ -50,7 +51,19 @@ function resetState() {
 }
 
 function selectAnswer(selectedOption, correctParam) {
+    const buttons = optionsContainer.querySelectorAll(".option-button");
     const isCorrect = selectedOption === correctParam;
+    
+    buttons.forEach(button => {
+        button.style.pointerEvents = "none";
+        if (button.textContent === selectedOption) {
+            button.classList.add(isCorrect ? "correct-choice" : "wrong-choice");
+        }
+        if (button.textContent === correctParam) {
+            button.classList.add("correct-choice");
+        }
+    });
+
     if (isCorrect) {
         score++;
         scoreText.textContent = `Score: ${score}`;
@@ -63,7 +76,7 @@ function selectAnswer(selectedOption, correctParam) {
         } else {
             showScore();
         }
-    }, 500);
+    }, 1000); // Increased delay to see animations
 }
 
 function showScore() {
@@ -73,6 +86,5 @@ function showScore() {
 }
 
 playAgainButton.addEventListener("click", startQuiz);
-
 
 fetchQuestions();
